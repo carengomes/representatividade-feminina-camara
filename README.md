@@ -1,4 +1,5 @@
 📊 Análise da Igualdade de Gênero na Câmara dos Deputados
+
 📌 Descrição
 Este projeto analisa a representatividade feminina na Câmara dos Deputados, utilizando dados abertos para calcular indicadores de participação política. O objetivo é visualizar e compreender o cenário atual e sua evolução ao longo do tempo.
 
