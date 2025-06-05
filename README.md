@@ -1,7 +1,7 @@
 📊 Análise da Representatividade Feminina na Câmara dos Deputados
 
 📌 **Descrição**
-Este projeto analisa a representatividade feminina na Câmara dos Deputados durante as legislaturas 56ª (2019–2022) e 57ª (2023–2026). Através de dashboards interativos desenvolvidos no Power BI e análises complementares em Python, o objetivo é compreender o cenário atual da participação política das mulheres no Brasil, observando aspectos como distribuição partidária e desigualdade entre estados.
+Este projeto visa analisar a representatividade feminina na Câmara dos Deputados durante as legislaturas 56ª (2019–2022) e 57ª (2023–2026). Utilizando dashboards interativos desenvolvidos no Power BI e análises complementares em Python, buscamos compreender o cenário atual da participação política das mulheres no Brasil, observando tanto os aspectos demográficos quanto legislativos, incluindo distribuição partidária e desigualdade entre estados.
 
 ---
 
@@ -25,12 +25,22 @@ Este projeto analisa a representatividade feminina na Câmara dos Deputados dura
    - Média de permanência na liderança por gênero
    - Partidos e estados com lideranças femininas
 
+5. **Proposições com autoria feminina**
+   - Distribuição por tipo e tema de proposição
+   - Total geral de proposições x Total de proposições com autoria feminina
+   - Evolução anual de proposições femininas x Total geral
+
 ---
 
 🛠️ **Tecnologias Utilizadas**
-- Python (Pandas, Matplotlib, Seaborn, Requests)
-- Power BI (visualizações interativas, filtros dinâmicos)
-- Git/GitHub para versionamento e organização do projeto
+   - Python 
+      - Bibliotecas: pandas, requests
+      - Análises exploratórias e tratamento de dados: cálculo de dias de liderança, contagem de proposições, métricas demográficas...
+   - Power BI
+      - Dashboards interativos (colunas empilhadas, treemap, mapas, box plot, cartões KPI)
+      - Filtros dinâmicos e segmentadores para Legislatura, Gênero, Estado, Partido, Tema
+   - Git/GitHub 
+      - Versionamento e organização do projeto
 
 ---
 
@@ -43,7 +53,9 @@ Este projeto analisa a representatividade feminina na Câmara dos Deputados dura
    └── capturas_tela/
    └── pdf/
 👤📁 data
-   └── arquivos.csv
+   ├── arquivos.csv
+   └── dados_proposicoes/
+   └── modelo_de_dados/
 👤📁 scripts
    └── representatividade.ipynb
 📄 README.md
@@ -65,5 +77,8 @@ Este projeto está licenciado sob a **MIT License** – veja o arquivo LICENSE p
 ---
 
 💬 **Sugestões ou dúvidas?**
-Abra uma issue ou entre em contato! Este projeto faz parte do Trabalho de Conclusão de Curso em Análise e Desenvolvimento de Sistemas. Toda contribuição é bem-vinda. 💜
+Abra uma issue neste repositório ou entre em contato diretamente!
+Contribuições, correções e novas ideias são sempre bem-vindas!
 
+   Este trabalho faz parte do Trabalho de Conclusão do Curso de Análise e Desenvolvimento de Sistemas.
+   Agradeço seu interesse e colaboração! 💜
